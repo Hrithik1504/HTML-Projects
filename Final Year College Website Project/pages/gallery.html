@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMPS Polytechnic College</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mobo.css">
+    <link rel="stylesheet" href="../css/sub-header.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- -----------sub-header-10------------->
+    <section class="sub-header-10">
+        <nav>
+            <a href="index.html"><img src="../images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../pages/academics.html">ACADEMICS</a></li>
+                    <li><a href="../pages/administration.html">ADMINISTRATION</a></li>
+                    <li><a href="../pages/departments.html">DEPARTMENTS</a></li>
+                    <li><a href="../pages/facilities.html">FACILITIES</a></li>
+                    <li><a href="../pages/placements.html">PLACEMENTS</a></li>
+                    <li><a href="../pages/gallery.html">GALLERY</a></li>
+                    <li><a href="../pages/activities.html">ACTIVITIES</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>GALLERY</h1>
+    </section>
+
+    <!-- Image Gallery -->
+        <div class="imgslide"></div>
+
+    <!-------------enquiry-form------------->
+
+    <section class="enquiry">
+        <h1>ENQUIRY NOW</h1>
+        <a href="../pages/enquiry.html" class="visit-btn">Submit Form</a>
+    </section>
+
+    <!-------------footer-------------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>The IMPS Polytechnic College was founded in the year 2015. <br>This institute is located at natural backdrop
+            of North Bengal far from the madding crowd. <br>Still all the facilities of Siliguri and Jalpaiguri are
+            within easy and comfortable reach. <br>The gorgeous North Bengal being very close to IMPS PTC. </p>
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-google-plus-g"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+        <p>Made with <i class="far fa-heart"></i> By Group 4</p>
+    </section>
+
+    <!-- ----------JavaScript for toggle menu------------>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,900 @@
+/* ----------sub-header----------- */
+.sub-header{
+    height: 40vh;
+    width: 100%;
+    background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-header h1{
+    font-size: 50px;
+}
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-col h1{
+    margin-bottom: 2%;
+}
+.about-col p{
+    color: #777;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 22px;
+    padding: 10px;
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+/* -----------sub-header-2------------ */
+
+.sub-header-2{
+    height: 40vh;
+    width: 100%;
+    background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-header-2 h1{
+    font-size: 50px;
+}
+/* -----------facilities-tab--------- */
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.facilities h1{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+/* --------------library-tab------------- */
+.library-col p{
+    color: #777;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 22px;
+    padding: 10px;
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.library-col h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.library-col h4{
+    text-align: left;
+    font-size: 25px;
+}
+.library-col p:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+/* -----------------hostel-tab-------------- */
+.hostel-col p{
+    color: #777;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 22px;
+    padding: 10px;
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.hostel-col h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.hostel-col p:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+/* ---------------sports-tab-------------- */
+.sports-col p{
+    color: #777;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 22px;
+    padding: 10px;
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.sports-col h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.sports-col p:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+/* -----------------other-facilities-tab-------------- */
+
+.other-facilities-col p{
+    color: #777;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 22px;
+    padding: 10px;
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.other-facilities-col h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.other-facilities-col h4{
+    text-align: left;
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 20px;
+}
+.other-facilities-col p:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+/* ----------contact us------------- */
+.sub-header-3{
+    height: 40vh;
+    width: 100%;
+    background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-header-3 h1{
+    font-size: 50px;
+}
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contact-col .fas, .far{
+    font-size: 18px;
+    color: #f44336;
+    margin: 10px;
+    margin-right: 30px; 
+}
+.contact-col h5{
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #f44336;
+    font-weight: 400;
+}
+.contact-col p{
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #f44336;
+    font-weight: 400;
+}
+.contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+/* -------------location-tab---------- */
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+.location iframe{
+    width: 100%;
+}
+
+/* --------------sub-header-4---------------- */
+
+.sub-header-4{
+    height: 40vh;
+    width: 100%;
+    background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-header-4 h1{
+    font-size: 50px;
+}
+.department{
+    width: 80%;
+    margin-left: 10%;
+}
+.department h1{
+    font-size: 40px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    text-align: center;
+}
+.department-col p{
+    color: #777;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.table{
+    color: #777;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.department h3{
+    text-align: left;
+    font-weight: 600;
+    margin-bottom:5%;
+    margin: 10px 0;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.department-col h4{
+    text-align: left;
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 20px;
+}
+.table{
+    width: 100%;
+}
+.table th{
+    border: 1px solid black;
+    text-align: center;
+}
+.table td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+/* ---------------sub-header-5--------------- */
+
+.sub-header-5{
+    height: 40vh;
+    width: 100%;
+    background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-header-5 h1{
+    font-size: 50px;
+}
+.academics{
+    width: 80%;
+    margin-left: 10%;
+}
+.academics h1{ 
+    font-size: 35px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.academics h3{
+    text-align: left;
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.academics-col p{
+    color: #777;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.admission{
+    width: 80%;
+    margin-left: 10%;
+}
+.admission-col h1{
+    text-align: center;
+    font-size: 33px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.admission-col h3{
+    text-align: left;
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 2%;
+}
+.admission-col h4{
+    font-size: 25px;
+    margin-left: 2%;
+}
+.admission-col p{
+    color: #777;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.rules{
+    width: 80%;
+    margin-left: 10%;
+}
+.rules-col h3{
+    text-align: left;
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 2%;
+}
+.rules h1{
+    text-align: center;
+    font-size: 33px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.rules p{
+    color: #777;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+/* ----------------sub-header-6------------------- */
+
+.sub-header-6{
+    height: 40vh;
+    width: 100%;
+    background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-header-6 h1{
+    font-size: 50px;
+}
+
+/* -------------------sub-header-7--------------------- */
+
+.sub-header-7{
+    height: 40vh;
+    width: 100%;
+    background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-header-7 h1{
+    font-size: 50px;
+}
+.admin-row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+}
+.admin-col h3{
+    text-align: center;
+}
+.admin-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.admin-col img{
+    width: 150px;
+}
+.admin h1{
+    margin-bottom: 5%;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+.admin h2{
+    margin-bottom: 2%;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+/* ------------chairman-tab----------- */
+.chairman{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.chairman-msg p{
+    color: #777;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: left;
+}
+.chairman-msg h3{
+    margin-bottom: 2%;
+    font-size: 20px;
+    text-align: left;
+}
+.chariman-col{
+    width: auto;
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.chariman-col h3{
+    text-align: center;
+}
+.chairman-row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.chariman-col img{
+    width: 250px;
+    border-radius: 50%;
+}
+.chairman-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.chairman h1{
+    margin-bottom: 5%;
+    font-size: 36px;
+    font-weight: 600;
+}
+/* ----------principal---------------- */
+.principal{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.principal-msg p{
+    color: #777;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: left;
+}
+.principal-msg h3{
+    margin-bottom: 2%;
+    font-size: 20px;
+    text-align: left;
+}
+.principal-col{
+    width: auto;
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.principal-col h3{
+    text-align: center;
+}
+.principal-row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.principal-col img{
+    width: 250px;
+    border-radius: 50%;
+}
+.principal-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.principal h1{
+    margin-bottom: 5%;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+/* --------------director-tab-------------- */
+.director{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.director-msg p{
+    color: #777;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: left;
+}
+.director-msg h3{
+    margin-bottom: 2%;
+    font-size: 20px;
+    text-align: left;
+}
+.director-col{
+    width: auto;
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.director-col h3{
+    text-align: center;
+}
+.director-row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.director-col img{
+    width: 250px;
+    border-radius: 50%;
+}
+.director-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.director h1{
+    margin-bottom: 5%;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+/* -----------------activities-tab--------------- */
+.sub-header-8{
+    height: 40vh;
+    width: 100%;
+    background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-header-8 h1{
+    font-size: 50px;
+}
+.activities-col h3{
+    margin-bottom: 1%;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.activities-col p{
+    width: 80%;
+    margin-left: 10%;
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: left;
+}
+.activities-col img{
+    width: 150px;
+}
+.activities h3{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+}
+/* ------------sub-header-9--------------- */
+
+.sub-header-9{
+    height: 40vh;
+    width: 100%;
+    background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-header-9 h1{
+    font-size: 50px;
+}
+.wrapper {
+    margin: 0px auto 0;
+    width: 100%;
+    max-width: 680px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #c3edfa;
+}
+.content {
+    text-align: center;
+}
+  
+.content h1 {
+    letter-spacing: 1px;
+}
+  
+  
+
+.form {
+    width: 100%;
+    margin: 25px 0;
+}
+  
+.top-form,
+.middle-form,
+.bottom-form {
+    width: 100%;
+    min-height: 65px;
+    margin: 10px 0;
+}
+.form input[type="text"],
+.form textarea {
+    border: 2px solid #fff;
+    padding: 10px 5px;
+    outline: none;
+    border-radius: 2px;
+    width: 100%;
+    transition: all 0.2s ease;
+}
+.form input:focus,
+.form textarea:focus {
+    border-color: #4ca1af;
+    outline: none;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.0125),
+      0 0 8px rgba(76, 161, 175, 0.5);
+}
+.form .label {
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.top-form .middle-form .bottom-form .inner-form {
+    display: block;
+    position: relative;
+    min-width: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+  
+.top-form .inner-form:last-child {
+    margin-right: 0;
+}
+.middle-form {
+    clear: both;
+}
+.bottom-form textarea {
+    height: 80px;
+}
+.btn {
+    background: #4ca1af;
+    width: 200px;
+    padding: 10px 0;
+    border-radius: 2px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+.checkbox{
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-left: -10px;
+}
+@media screen and (max-width: 460px) {
+    .top-form .inner-form {
+      width: 100%;
+      margin: 5px 0;
+    }
+    .top-form,
+    .middle-form,
+    .bottom-form {
+      margin: 5px 0;
+    }
+    .form {
+      margin-top: 10px;
+    }
+  }
+
+/* --------------sub-header-10------------- */
+.sub-header-10{
+    height: 40vh;
+    width: 100%;
+    background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-header-10 h1{
+    font-size: 50px;
+    letter-spacing: 0.5rem;
+}
+.imgslide{
+    width: 80%;
+    height: 800px;
+    position:relative;
+    margin-left: 10%;
+    margin-top: 10%;
+    /* transform: translate(-50%, -50%); */
+    background-image: url(../gallery/1.jpg);
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 5px black;
+    animation:slider 30s infinite linear;
+}
+@keyframes slider{
+    0%{
+        background-image: url(../gallery/1.jpg);
+    }
+    12%{
+        background-image: url(../gallery/2.jpg);
+    }
+    24%{
+        background-image: url(../gallery/3.jpg);
+    }
+    42%{
+        background-image: url(../gallery/4.jpg);
+    }
+    52%{
+        background-image: url(../gallery/5.jpg);
+    }
+    65%{
+        background-image: url(../gallery/6.jpg);
+    }
+    82%{
+        background-image: url(../gallery/7.jpg);
+    }
+    92%{
+        background-image: url(../gallery/8.jpg);
+    }
+}
