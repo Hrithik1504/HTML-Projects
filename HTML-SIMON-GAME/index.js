@@ -14,6 +14,7 @@ const getRandomPanel = () => {
 };
 
 const sequence = [getRandomPanel(),];
+let sequenceToGuess = [...sequence];
 
 const flash = panel => {
     return new Promise((resolve, reject) => {
@@ -33,16 +34,28 @@ const flash = panel => {
 
 let canClick = false;
 
-const panelClicked = panel => {
+const panelClicked = panelClicked => {
     if (!canClick) return;
-    console.log(panel);
+    const expectedPanel = sequenceToGuess.shift();
+    if (expectedPanel === panelClicked) {
+        if (sequenceToGuess.length === 0) {
+            //start new round
+            sequence.push(getRandomPanel());
+            sequenceToGuess = [...sequence];
+            startFlashing();
+        }
+    }else{
+        //end game
+        alert('game over')
+    }
 };
 
-const main = async () => {
+const startFlashing = async () => {
+    canClick = false;
     for (const panel of sequence) {
         await flash(panel);
     }
     canClick = true;
 };
 
-main();
+startFlashing();
